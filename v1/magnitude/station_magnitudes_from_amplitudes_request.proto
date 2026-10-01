@@ -20,6 +20,9 @@ message StationMagnitudesFromAmplitudesRequest {
       /// The source-to-receiver distance in meters.  This must be
       /// non-negative.
       double distance = 3;
+      /// The source depth in meters.  This must be between -8600 and
+      /// 800,000.  This increases positive down.
+      double depth = 4;
    }
    /// A request identifier.
    string identifier = 1 [default = ""];
