@@ -4,6 +4,8 @@ package ULocalMagnitudeServiceAPI.V1.Magnitude;
 
 import "uLocalMagnitudeServiceAPI/v1/magnitude/distance_corrections_request.proto";
 import "uLocalMagnitudeServiceAPI/v1/magnitude/distance_corrections_response.proto";
+import "uLocalMagnitudeServiceAPI/v1/magnitude/network_magnitude_from_amplitudes_request.proto";
+import "uLocalMagnitudeServiceAPI/v1/magnitude/network_magnitude_from_amplitudes_response.proto";
 import "uLocalMagnitudeServiceAPI/v1/magnitude/station_corrections_request.proto";
 import "uLocalMagnitudeServiceAPI/v1/magnitude/station_corrections_response.proto";
 import "uLocalMagnitudeServiceAPI/v1/magnitude/station_magnitudes_from_amplitudes_request.proto";
