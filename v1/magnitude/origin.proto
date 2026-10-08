@@ -4,9 +4,9 @@ import "google/protobuf/timestamp.proto";
 package ULocalMagnitudeServiceAPI.V1.Magnitude;
 
 /*
- * The event hypocenter.
+ * The event origin (hypocenter and time).
  */
-message Hypocenter {
+message Origin {
    /// The event latitude in degrees.  This must be in the range [-90, 90].
    /// This increases positive north.
    double latitude = 1;
