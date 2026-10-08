@@ -25,7 +25,7 @@ service MagnitudeService {
    /// pair.  Note, that this algorithm does not apply Chauvenet's criterion for
    /// outlier detection since the user is responsible for adding and removing
    /// observations.
-   //rpc ComputeLocalMagnitudeFromAmplitudes(LocalMagnitudeFromAmplitudesRequest) returns(LocalMagnitudeFromAmplitudesResponse) {};
+   rpc ComputeNetworkMagnitudeFromAmplitudes(NetworkMagnitudeFromAmplitudesRequest) returns(NetworkMagnitudeFromAmplitudesResponse) {};
    /// This is a marginally higher order debugging utility that will return
    /// the station magnitudes.
    rpc ComputeStationMagnitudesFromAmplitudes(StationMagnitudesFromAmplitudesRequest) returns(StationMagnitudesFromAmplitudesResponse) {};
