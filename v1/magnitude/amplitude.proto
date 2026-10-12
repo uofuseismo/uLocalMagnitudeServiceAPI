@@ -10,7 +10,7 @@ import "uLocalMagnitudeServiceAPI/v1/magnitude/stream_identifier.proto";
 message Amplitude {
    /// The units on the measurement.
    enum Units {
-       UNITS_UNKNOWN = 0;     /// The units are unknown and an error will be generated.
+       UNITS_UNSPECIFIED = 0; /// The units are unknown and an error will be generated.
        UNITS_MILLIMETERS = 1; /// The amplitude was measured in units of millimeters (pretty common).
        UNITS_CENTIMETERS = 2; /// The amplitude was measured in units of centimeters (sometimes happens).
        UNITS_METERS = 3;      /// The amplitdue was measured in units of meters (uncommon).
