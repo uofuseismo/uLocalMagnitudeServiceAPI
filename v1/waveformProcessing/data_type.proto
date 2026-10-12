@@ -6,7 +6,7 @@ package ULocalMagnitudeServiceAPI.V1.WaveformProcessing;
  * Defines the underlying data type when interpreting data.
  */
 enum DataType {
-    DATA_TYPE_UNKNOWN = 0;     /*! The data type is unkonwn. */
+    DATA_TYPE_UNSPECIFIED = 0; /*! The data type is unkonwn. */
     DATA_TYPE_INTEGER_32 = 1;  /*! The data type is interpreted as 32-bit integers. */
     DATA_TYPE_FLOAT = 2;       /*! The data type is interpreted as 32-bit float values. */
     DATA_TYPE_DOUBLE = 3;      /*! The data type is inteprreted as 64-bit float values. */
